@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"raribles/royalties/contracts/impl/AbstractRoyalties.sol": "AbstractRoyalties"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"raribles/royalties/contracts/LibPart.sol": {
+			"keccak256": "0xdfa649df056dcb60a976964e1f4f8066894c804762554c03bd06536f9d412be1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e83187922289282aa565bc20d7be9e7614cc15c41848fe45704916f84e449e53",
+				"dweb:/ipfs/QmPBGfCBGJFPSUeQBCSY4FJaE6DFXCQNVXEbLmcuXDvJwQ"
+			]
+		},
+		"raribles/royalties/contracts/impl/AbstractRoyalties.sol": {
+			"keccak256": "0x51eed74baa5ecd7e7b65ea6bc229053846fd95c32edb14c721618212dad56a71",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d542310f3d474f1b35bb74765f127f3958534c22dc062cd29571daa357c35a7",
+				"dweb:/ipfs/QmWDG68nLBraapQZMABQMvwvL8rQ8xDmfDgKUX4gXaRuAZ"
+			]
+		}
+	},
+	"version": 1
+}

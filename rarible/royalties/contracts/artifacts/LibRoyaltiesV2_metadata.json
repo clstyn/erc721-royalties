@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"raribles/royalties/contracts/LibRoyaltiesV2.sol": "LibRoyaltiesV2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"raribles/royalties/contracts/LibRoyaltiesV2.sol": {
+			"keccak256": "0x0ca36c281189010ae1408f3492994d9f8f67c9844e1360567804dffd4001ecd8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1ce9a68a69b28125f767e0525c467c1b1a7ffbafe7291c401c63ea7b055074e",
+				"dweb:/ipfs/Qmae4MdhVtoWapFHdY438ZZrBcoF1T6Emqw9jeX7oktXdD"
+			]
+		}
+	},
+	"version": 1
+}

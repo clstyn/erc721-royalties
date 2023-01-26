@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"components": [
+							{
+								"internalType": "address payable",
+								"name": "account",
+								"type": "address"
+							},
+							{
+								"internalType": "uint96",
+								"name": "value",
+								"type": "uint96"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct LibPart.Part[]",
+						"name": "royalties",
+						"type": "tuple[]"
+					}
+				],
+				"name": "RoyaltiesSet",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getRaribleV2Royalties",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address payable",
+								"name": "account",
+								"type": "address"
+							},
+							{
+								"internalType": "uint96",
+								"name": "value",
+								"type": "uint96"
+							}
+						],
+						"internalType": "struct LibPart.Part[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"raribles/royalties/contracts/impl/RoyaltiesV2Impl.sol": "RoyaltiesV2Impl"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"raribles/royalties/contracts/LibPart.sol": {
+			"keccak256": "0xdfa649df056dcb60a976964e1f4f8066894c804762554c03bd06536f9d412be1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e83187922289282aa565bc20d7be9e7614cc15c41848fe45704916f84e449e53",
+				"dweb:/ipfs/QmPBGfCBGJFPSUeQBCSY4FJaE6DFXCQNVXEbLmcuXDvJwQ"
+			]
+		},
+		"raribles/royalties/contracts/RoyaltiesV2.sol": {
+			"keccak256": "0xd284dc69f1894552bbc220691054c7d7d867062b54a62404821c9150354fea14",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74ee84bdfa6a37c384626fd2d05ab0bfa359eca7c5b1f18287ec016544cad456",
+				"dweb:/ipfs/QmQJzSor68pLzEBPQuJdLvC5CZPekxejvHWcY4pioKtwjH"
+			]
+		},
+		"raribles/royalties/contracts/impl/AbstractRoyalties.sol": {
+			"keccak256": "0x51eed74baa5ecd7e7b65ea6bc229053846fd95c32edb14c721618212dad56a71",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d542310f3d474f1b35bb74765f127f3958534c22dc062cd29571daa357c35a7",
+				"dweb:/ipfs/QmWDG68nLBraapQZMABQMvwvL8rQ8xDmfDgKUX4gXaRuAZ"
+			]
+		},
+		"raribles/royalties/contracts/impl/RoyaltiesV2Impl.sol": {
+			"keccak256": "0xe03f64bc4daec1cb4583dd9131cbb35467373e44b02a31ba71acccf66a9f999d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cf7c7452bf387597d1bb9149ae4bab9bce1fa6f89d52948b9776d6dacc6266c0",
+				"dweb:/ipfs/QmfCSswtrSaCvKq6rTmSkvcgpvPsLELbtXZ8NLAxG8t5RC"
+			]
+		}
+	},
+	"version": 1
+}
